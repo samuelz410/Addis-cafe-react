@@ -49,7 +49,7 @@ export default function OrderForm({ orderTotal }) {
           name="phone"
           value={form.phone}
           onChange={handleChange}
-          placeholder="0912345678 or 0712345678"
+          placeholder="0912345678 "
         />
         {form.phone && !isPhoneValid && (
           <span className="error">
