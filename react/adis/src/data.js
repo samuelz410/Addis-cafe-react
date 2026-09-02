@@ -1,0 +1,10 @@
+export const menuData = [
+  { id: 1, name: "Special Kitfo", price: 320, category: "Mains", spicy: true },
+  { id: 2, name: "Tegabino", price: 180, category: "Mains", spicy: false },
+  { id: 3, name: "Chechebsa", price: 160, category: "Breakfast", spicy: false },
+  { id: 4, name: "Special Full", price: 140, category: "Breakfast", spicy: true },
+  { id: 5, name: "Spris Juice", price: 90, category: "Drinks", spicy: false },
+  { id: 6, name: " Coffee", price: 50, category: "Drinks", spicy: false },
+];
+
+export const categories = ["All", "Breakfast", "Mains", "Drinks"];
